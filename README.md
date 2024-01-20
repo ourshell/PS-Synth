@@ -1,4 +1,4 @@
-#PowerShell Piano Synthesizer
+PowerShell Piano Synthesizer
 
 Downlaod files PS-Synth.bat and PS-Synth.ps1 in same directory.
 
