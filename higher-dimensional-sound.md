@@ -26,7 +26,9 @@ The **4D wave equation** is an extension of the traditional wave equation in 3D.
 
 The 4D wave equation is essentially a mathematical model that governs the propagation of waves in a four-dimensional space. For a hypothetical wave function `W(x, y, z, t)` that propagates in 4D, we might write:
 
-$\frac{\partial^2 W}{\partial t^2} = c^2 \left( \frac{\partial^2 W}{\partial x^2} + \frac{\partial^2 W}{\partial y^2} + \frac{\partial^2 W}{\partial z^2} + \frac{\partial^2 W}{\partial w^2} \right)$
+```math
+\frac{\partial^2 W}{\partial t^2} = c^2 \left( \frac{\partial^2 W}{\partial x^2} + \frac{\partial^2 W}{\partial y^2} + \frac{\partial^2 W}{\partial z^2} + \frac{\partial^2 W}{\partial w^2} \right)
+```
 
 Where `c` is the speed of the wave, `W` is the displacement function, and `x`, `y`, `z`, and `w` represent the four spatial dimensions. The key difference between this equation and the traditional 3D wave equation is the additional spatial dimension.
 
