@@ -30,7 +30,7 @@ The 4D wave equation is essentially a mathematical model that governs the propag
 
 ∂²W/∂t² = c² ( ∂²W/∂x² + ∂²W/∂y² + ∂²W/∂z² + ∂²W/∂w² )
 
-$ \frac{\partial^2 W}{\partial t^2} = c^2 \left( \frac{\partial^2 W}{\partial x^2} + \frac{\partial^2 W}{\partial y^2} + \frac{\partial^2 W}{\partial z^2} + \frac{\partial^2 W}{\partial w^2} \right) $
+$\frac{\partial^2 W}{\partial t^2} = c^2 \left( \frac{\partial^2 W}{\partial x^2} + \frac{\partial^2 W}{\partial y^2} + \frac{\partial^2 W}{\partial z^2} + \frac{\partial^2 W}{\partial w^2} \right)$
 
 Where `c` is the speed of the wave, `W` is the displacement function, and `x`, `y`, `z`, and `w` represent the four spatial dimensions. The key difference between this equation and the traditional 3D wave equation is the additional spatial dimension.
 
