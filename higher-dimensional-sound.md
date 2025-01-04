@@ -1,5 +1,9 @@
 # Exploring Higher-Dimensional Sound and Music Synthesis
 
+```math
+\frac{\partial^2 \psi}{\partial t^2} = c^2 \nabla^2 \psi
+```
+
 ## Introduction
 
 Traditional music and sound as we understand them today are bound by the three-dimensional (3D) world we live in. Sound waves propagate through air and other media in a manner we perceive through our three-dimensional space. But what if we could extend this concept into the fourth dimension (4D)? Imagine sound waves existing not just in space but in higher dimensions, and what kind of music or sound would emerge from such a paradigm. This article explores the theoretical framework of generating sound in 4D and its potential implications for music synthesis.
@@ -44,13 +48,9 @@ In theory, if we were able to fully simulate 4D waves, the resulting sound would
 
 To simulate a 4D sound wave, we might use mathematical functions to generate harmonics in the same way as we do with 3D waves, but with additional complexities. In 3D, a common approach is to generate a sine wave:
 
-f(y) = sin(2 * pi * frequency * time)
-
 $f(y) = \sin(2 \pi \cdot \text{frequency} \cdot \text{time})$
 
 But in 4D, the wave function might include additional terms or variables to account for the fourth spatial dimension. For example:
-
-f(y, w) = sin(2 * pi * frequency * (time + w))
 
 $f(y, w) = \sin(2 \pi \cdot \text{frequency} \cdot (\text{time} + w))$
 
