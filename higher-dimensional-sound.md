@@ -10,8 +10,6 @@ Sound is created by vibrations, which propagate through a medium (typically air)
 
 The fundamental mathematical formula for a sound wave in 3D space is:
 
-f(y) = sin(2 * pi * frequency * time) * exp(-time)
-
 $f(y) = \sin(2 \pi \cdot \text{frequency} \cdot \text{time}) \cdot \exp(-\text{time})$
 
 This equation represents a simple sine wave that oscillates with time at a given frequency, and an exponential decay that simulates the sound fading over time.
@@ -27,8 +25,6 @@ The **4D wave equation** is an extension of the traditional wave equation in 3D.
 ### The 4D Wave Equation
 
 The 4D wave equation is essentially a mathematical model that governs the propagation of waves in a four-dimensional space. For a hypothetical wave function `W(x, y, z, t)` that propagates in 4D, we might write:
-
-∂²W/∂t² = c² ( ∂²W/∂x² + ∂²W/∂y² + ∂²W/∂z² + ∂²W/∂w² )
 
 $\frac{\partial^2 W}{\partial t^2} = c^2 \left( \frac{\partial^2 W}{\partial x^2} + \frac{\partial^2 W}{\partial y^2} + \frac{\partial^2 W}{\partial z^2} + \frac{\partial^2 W}{\partial w^2} \right)$
 
@@ -50,10 +46,13 @@ To simulate a 4D sound wave, we might use mathematical functions to generate har
 
 f(y) = sin(2 * pi * frequency * time)
 
+$f(y) = \sin(2 \pi \cdot \text{frequency} \cdot \text{time})$
+
 But in 4D, the wave function might include additional terms or variables to account for the fourth spatial dimension. For example:
 
 f(y, w) = sin(2 * pi * frequency * (time + w))
 
+$f(y, w) = \sin(2 \pi \cdot \text{frequency} \cdot (\text{time} + w))$
 
 This represents a more complex wave form, with `w` introducing the 4th dimension as a parameter that affects the wave.
 
@@ -89,4 +88,4 @@ The concept of 4D sound represents an exciting frontier in audio research and mu
 ---
 
 **Credits:**
-This research and article were inspired by ChatGPT 4, a cutting-edge language model that helped bring this unique concept to life.
+This research and article were inspired by ChatGPT 4
