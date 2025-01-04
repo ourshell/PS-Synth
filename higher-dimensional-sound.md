@@ -10,7 +10,7 @@ Sound is created by vibrations, which propagate through a medium (typically air)
 
 The fundamental mathematical formula for a sound wave in 3D space is:
 
-$$f(y) = \sin(2 \pi \cdot \text{frequency} \cdot \text{time}) \cdot \exp(-\text{time})$$
+$f(y) = \sin(2 \pi \cdot \text{frequency} \cdot \text{time}) \cdot \exp(-\text{time})$
 
 This equation represents a simple sine wave that oscillates with time at a given frequency, and an exponential decay that simulates the sound fading over time.
 
