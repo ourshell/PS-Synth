@@ -24,25 +24,35 @@ In ET, frequencies are calculated to divide the octave into 12 equally spaced to
 
 Intervals in a musical scale are measured in cents, a logarithmic unit that linearizes pitch changes. The formula for pitch difference in cents is:
 
+```math
 \text{Pitch} = 1200 \times \frac{\ln(f_2 / f_1)}{\ln(2)} = 1200 \times \frac{\ln(\text{Ratio})}{\ln(2)}
+```
 
 For example, in ET, a semitone (100 cents) is calculated as:
 
+```math
 \text{Pitch}_{\text{semitone}} = 1200 \times \ln(2^{1/12}) / \ln(2) = 1200 \times \frac{1}{12} \approx 100 \text{ cents}
+```
 
 Similarly, a whole tone (200 cents) between two tones is:
 
+```math
 \text{Pitch}_{\text{whole-tone}} = 1200 \times \frac{\ln(2^{7/12} / 2^{5/12})}{\ln(2)} = 200 \text{ cents}
+```
 
 3. Just Noticeable Difference (JND)
 
 The Just Noticeable Difference (JND) defines the smallest pitch change perceivable by the human ear. In the range of 80 Hz to 500 Hz, JND is approximately 1 Hz for complex sounds. For example:
 
+```math
 \text{JND}_1 = 1200 \times \frac{\ln(500 / 499)}{\ln(2)} \approx 3.465935 \text{ cents}
+```
 
 For harmonic intervals, such as the syntonic comma (81/80), the difference is:
 
+```math
 \text{JND}_2 = 1200 \times \frac{\ln(81 / 80)}{\ln(2)} \approx 21.5063 \text{ cents}
+```
 
 Pitch changes below 3.5 cents are imperceptible, which becomes critical when comparing tuning systems.
 
@@ -52,15 +62,21 @@ Perfect Fifths (P5)
 
 In ET, the ratio of a perfect fifth is approximated as:
 
+```math
 \text{Ratio}_{\text{P5, ET}} = 2^{7/12} \approx 1.498307
+```
 
 In Just Intonation (JI), the perfect fifth is:
 
+```math
 \text{Ratio}_{\text{P5, JI}} = \frac{3}{2} = 1.5
+```
 
 The difference in cents is:
 
+```math
 \text{Difference} = 1200 \times \ln(2^{7/12} / (3/2)) / \ln(2) \approx -1.955 \text{ cents}
+```
 
 5. Ratios Relationship
 
@@ -72,39 +88,54 @@ Perfect fifth (P5):
 
 The deviation of M3 and P5 in ET compared to JI is calculated as:
 
+```math
 \text{Error}_{\text{M3}} = 1200 \times \ln(5/4) / \ln(2) - 400 \approx -13.686 \text{ cents}
+```
 
+```math
 \text{Error}_{\text{P5}} = 1200 \times \ln(3/2) / \ln(2) - 700 \approx +1.955 \text{ cents}
-
+```
 These deviations are critical for harmonic purity.
 
 Stacking Intervals
 
 By stacking 7 P5s and 1 M3, a near-perfect interval is achieved. The formula for the stack is:
 
+```math
 \text{Stack} = \left(\frac{3}{2}\right)^7 \times \frac{5}{4} \times \frac{1}{2^4}
+```
 
 Simplifying:
 
+```math
 \text{Stack} = \frac{10935}{8192} \approx 1.334839
+```
 
 Compared to ET:
 
+```math
 \text{Ratio}_{\text{P4, ET}} = 2^{5/12} \approx 1.334839
+```
 
 The error in cents is:
 
+```math
 \text{Error}_{\text{stack}} = 1200 \times \ln(1.334839) / \ln(2) - 500 \approx -0.0013 \text{ cents}
+```
 
 6. Near-Equal Intervals
 
 The stack can be iteratively applied to generate all 12 tones in the scale. The formula for each ratio is:
 
+```math
 \text{NER}_n = \left(\frac{10935}{8192}\right)^n, \quad n = 0, 1, \dots, 11
+```
 
 Ratios exceeding 2 are divided by 2 to stay within the octave. The worst cumulative error is:
 
+```math
 \text{Cumulative Error} = 11 \times -0.0013 \approx -0.014 \text{ cents}
+```
 
 7. Practical Applications
 
