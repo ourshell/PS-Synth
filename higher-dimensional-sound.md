@@ -1,5 +1,22 @@
 # Exploring Higher-Dimensional Sound and Music Synthesis
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [The Basics of Sound in 3D](#the-basics-of-sound-in-3d)
+3. [Why 4D Sound?](#why-4d-sound)
+4. [Moving to Higher Dimensions](#moving-to-higher-dimensions)
+   - [The Concept of 4D Sound](#the-concept-of-4d-sound)
+   - [The 4D Wave Equation](#the-4d-wave-equation)
+   - [Projecting 4D Sound into 3D and 2D](#projecting-4d-sound-into-3d-and-2d)
+5. [The Role of Projection in Musical Timbre](#the-role-of-projection-in-musical-timbre)
+6. [The Physics of 4D Sound](#the-physics-of-4d-sound)
+   - [Mathematical Modeling of 4D Sound](#mathematical-modeling-of-4d-sound)
+   - [Sound Generation from Higher-Dimensional Physics](#sound-generation-from-higher-dimensional-physics)
+7. [Applications for Sound Design and Music Production](#applications-for-sound-design-and-music-production)
+8. [Challenges and Future Research](#challenges-and-future-research)
+9. [Conclusion](#conclusion)
+10. [Acknowledgments](#acknowledgments)
+
 ## Introduction
 
 Traditional music and sound as we understand them today are bound by the three-dimensional (3D) world we live in. Sound waves propagate through air and other media in a manner we perceive through our three-dimensional space. But what if we could extend this concept into the fourth dimension (4D)? Imagine sound waves existing not just in space but in higher dimensions, and what kind of music or sound would emerge from such a paradigm. This article explores the theoretical framework of generating sound in the fourth dimension, and how the mathematics of higher-dimensional wave propagation could open new possibilities for music, while offering insights into how 4D sound might be projected into our 3D world.
