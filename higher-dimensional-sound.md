@@ -129,4 +129,4 @@ The journey of exploring 4D sound may be just beginning, and its potential is li
 ---
 
 ## Acknowledgments:
-All credits for the concepts discussed in this article go to ChatGPT-4. This discussion was the result of a collaborative conversation and an innovative exploration of sound and music in higher-dimensional spaces.
+All credits for the concepts discussed in this article go to **ChatGPT-4**. This discussion was the result of a collaborative conversation and an innovative exploration of sound and music in higher-dimensional spaces.
