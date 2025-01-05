@@ -32,7 +32,7 @@ Intervals in a musical scale are measured in **cents**, a logarithmic unit that 
 \text{Pitch} 
 = 1200 \times \frac{\ln\Bigl(\tfrac{f_2}{f_1}\Bigr)}{\ln(2)} 
 = 1200 \times \frac{\ln\Bigl(\tfrac{\text{Ratio}_2}{\text{Ratio}_1}\Bigr)}{\ln(2)} 
-= 1200 \times \frac{\ln(\text{Ratio})}{\ln(2)}.
+= 1200 \times \frac{\ln(\text{Ratio})}{\ln(2)}
 ```
 
 For example, in ET, a semitone (100 cents) is calculated as:
@@ -41,7 +41,7 @@ For example, in ET, a semitone (100 cents) is calculated as:
 \text{Pitch}_{\text{semitone}} 
 = 1200 \times \frac{\ln\Bigl(2^{\tfrac{1}{12}}\Bigr)}{\ln(2)} 
 = 1200 \times \frac{0.05776226504}{0.69314718056} 
-\approx 100 \text{cents}.
+\approx 100 \text{cents}
 ```
 
 Similarly, a whole tone (200 cents) between two tones in ET can be shown by:
@@ -49,7 +49,7 @@ Similarly, a whole tone (200 cents) between two tones in ET can be shown by:
 ```math
 \text{Pitch}_{\text{whole-tone}} 
 = 1200 \times \frac{\ln\Bigl(2^{\tfrac{7}{12}} \div 2^{\tfrac{5}{12}}\Bigr)}{\ln(2)} 
-= 200 \text{cents.}
+= 200 \text{cents}
 ```
 
 ---
@@ -58,19 +58,15 @@ Similarly, a whole tone (200 cents) between two tones in ET can be shown by:
 
 The **Just Noticeable Difference (JND)** defines the smallest pitch change perceivable by the human ear. In the range of 80 Hz to 500 Hz, JND is approximately **1 Hz** for complex sounds. For example:
 
-$$
-\text{JND}_1 
-= 1200 \,\times\, \frac{\ln\!\Bigl(\tfrac{500}{499}\Bigr)}{\ln(2)} 
-\;\approx\; 3.465935 \,\text{cents}.
-$$
+```math
+\text{JND}_1 = 1200 \times \frac{\ln\Bigl(\tfrac{500}{499}\Bigr)}{\ln(2)} \approx 3.465935 \text{cents}
+```
 
 For harmonic intervals, such as the syntonic comma \(\bigl(\tfrac{81}{80}\bigr)\), the difference is:
 
-$$
-\text{JND}_2 
-= 1200 \,\times\, \frac{\ln\!\Bigl(\tfrac{81}{80}\Bigr)}{\ln(2)} 
-\;\approx\; 21.5063 \,\text{cents}.
-$$
+```math
+\text{JND}_2 = 1200 \times \frac{\ln\Bigl(\tfrac{81}{80}\Bigr)}{\ln(2)} \approx 21.5063 \text{cents}
+```
 
 Pitch changes below **3.5 cents** are generally imperceptible, which becomes critical when comparing tuning systems.
 
@@ -82,27 +78,21 @@ Pitch changes below **3.5 cents** are generally imperceptible, which becomes cri
 
 In ET, the ratio of a perfect fifth is **approximated** as:
 
-$$
-\text{Ratio}_{\text{P5, ET}} 
-= 2^{\tfrac{7}{12}} 
-\;\approx\; 1.498307.
-$$
+```math
+\text{Ratio}_{\text{P5, ET}} = 2^{\tfrac{7}{12}} \approx 1.498307
+```
 
 In Just Intonation (JI), the perfect fifth is **exactly**:
 
-$$
-\text{Ratio}_{\text{P5, JI}} 
-= \tfrac{3}{2} 
-= 1.5.
-$$
+```math
+\text{Ratio}_{\text{P5, JI}} = \tfrac{3}{2} = 1.5
+```
 
 The difference in cents is:
 
-$$
-\text{Difference} 
-= 1200 \,\times\, \frac{\ln\!\Bigl(\tfrac{2^{7/12}}{3/2}\Bigr)}{\ln(2)} 
-\;\approx\; -1.955 \,\text{cents}.
-$$
+```math
+\text{Difference} = 1200 \times \frac{\ln\Bigl(\tfrac{2^{7/12}}{3/2}\Bigr)}{\ln(2)} \approx -1.955 \text{cents}
+```
 
 Even a 2-cent discrepancy can contribute to subtle beating in chords.
 
