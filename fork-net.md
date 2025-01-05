@@ -126,33 +126,27 @@ These deviations are critical for harmonic purity.
 
 By stacking **7 P5s** and **1 M3**, a near-perfect interval is achieved. The formula for the stack is:
 
-$$
+```math
 \text{Stack} = \Bigl(\tfrac{3}{2}\Bigr)^7 \times \Bigl(\tfrac{5}{4}\Bigr) \times \Bigl(\tfrac{1}{2^4}\Bigr).
-$$
+```
 
 Simplifying:
 
-$$
-\text{Stack} 
-= \tfrac{10935}{8192} 
-\;\approx\; 1.334839.
-$$
+```math
+\text{Stack} = \tfrac{10935}{8192} \approx 1.334839
+```
 
 Compared to ET:
 
-$$
-\text{Ratio}_{\text{P4, ET}} 
-= 2^{\tfrac{5}{12}} 
-\;\approx\; 1.334839.
-$$
+```math
+\text{Ratio}_{\text{P4, ET}} = 2^{\tfrac{5}{12}} \approx 1.334839
+```
 
 The error in cents is:
 
-$$
-\text{Error}_{\text{stack}} 
-= 1200 \,\times\, \frac{\ln(1.334839)}{\ln(2)} \;-\; 500 
-\;\approx\; -0.0013 \,\text{cents}.
-$$
+```math
+\text{Error}_{\text{stack}} = 1200 \times \frac{\ln(1.334839)}{\ln(2)} - 500 \approx -0.0013 \text{cents}
+```
 
 ---
 
