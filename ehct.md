@@ -38,11 +38,13 @@ Unlike classical “stacked-fifths” methods that fix one or two intervals exac
 
 We define a “cost function” \(C\) that measures the difference between each just interval ratio and its EHCT approximation in cents, scaled by psychoacoustic importance:
 
+```math
 \[
 C 
 = \sum_{\text{interval } i} 
   w_i \, \bigl[\;\Delta_{\text{EHCT}}(i)\bigr]^2,
 \]
+```
 
 where:
 - \(\Delta_{\text{EHCT}}(i)\) is the cents difference for interval \(i\) under the EHCT scale.  
