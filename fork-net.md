@@ -91,7 +91,7 @@ In Just Intonation (JI), the perfect fifth is **exactly**:
 The difference in cents is:
 
 ```math
-\text{Difference} = 1200 \times \frac{\ln\Bigl(2^{\tfrac{7}{12}} \div 3/2\Bigr)}{\ln(2)} \approx -1.955 \text{cents}
+\text{Difference} = 1200 \times \frac{\ln\Bigl(2^{\tfrac{7}{12}} \div \tfrac{3}{2}\Bigr)}{\ln(2)} \approx -1.955 \text{cents}
 ```
 
 Even a 2-cent discrepancy can contribute to subtle beating in chords.
