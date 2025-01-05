@@ -18,10 +18,10 @@ F = 440 \times 2^{\frac{1}{2}} = 440 \times \sqrt{2} \approx 622 \text{Hz}.
 
 In ET, frequencies are calculated to divide the octave into 12 equally spaced tones (as perceived by the human ear). The ratio for each tone is:
 
-$$
+$
 \text{Ratio}_n \;=\; 2^{\tfrac{n}{12}}, 
 \quad n = 0, 1, \dots, 11.
-$$
+$
 
 ---
 
