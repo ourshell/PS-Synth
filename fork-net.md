@@ -19,7 +19,7 @@ To increase the **perceived** pitch by 50% (a factor of $$\sqrt{2}$$), the frequ
 In ET, frequencies are calculated to divide the octave into 12 equally spaced tones (as perceived by the human ear). The ratio for each tone is:
 
 ```math
-\text{Ratio}_n = 2^{\tfrac{n}{12}}, \quad n = 0, 1, \dots 11.
+\text{Ratio}_n = 2^{\tfrac{n}{12}} , \quad n = 0, 1, \dots 11.
 ```
 
 ---
@@ -154,19 +154,15 @@ The error in cents is:
 
 The stack can be **iteratively applied** to generate all 12 tones in the scale. The formula for each ratio is:
 
-$$
-\text{NER}_n 
-= \Bigl(\tfrac{10935}{8192}\Bigr)^n, 
-\quad n = 0, 1, \dots, 11.
-$$
+```math
+\text{NER}_n = \Bigl(\tfrac{10935}{8192}\Bigr)^n , \quad n = 0, 1, \dots, 11.
+```
 
 Ratios exceeding 2 are divided by 2 to stay within the octave. The worst cumulative error is:
 
-$$
-\text{Cumulative Error} 
-= 11 \,\times\, (-0.0013) 
-\;\approx\; -0.014 \,\text{cents}.
-$$
+```math
+\text{Cumulative Error} = 11 \times (-0.0013) \approx -0.014 \text{cents}
+```
 
 ---
 
