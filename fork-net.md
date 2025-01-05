@@ -19,21 +19,21 @@ To increase the **perceived** pitch by 50% (a factor of $$\sqrt{2}$$), the frequ
 In ET, frequencies are calculated to divide the octave into 12 equally spaced tones (as perceived by the human ear). The ratio for each tone is:
 
 ```math
-\text{Ratio}_n = 2^{\tfrac{n}{12}}, \quad n = 0, 1, \dots 11.
+\text{Ratio}_n = 2^{\tfrac{n}{12}} \quad n = 0, 1, \dots 11.
 ```
 
 ---
 
 ## 2. Linear Representation
 
-Intervals in a musical scale are measured in **cents**, a logarithmic unit that linearizes pitch changes. The formula for pitch difference in cents between two frequencies \(f_1\) and \(f_2\) is:
+Intervals in a musical scale are measured in **cents**, a logarithmic unit that linearizes pitch changes. The formula for pitch difference in cents between two frequencies $$\(f_1\)$$ and $$\(f_2\)$$ is:
 
-$$
+```math
 \text{Pitch} 
-= 1200 \,\times\, \frac{\ln\Bigl(\tfrac{f_2}{f_1}\Bigr)}{\ln(2)} 
-= 1200 \,\times\, \frac{\ln\Bigl(\tfrac{\text{Ratio}_2}{\text{Ratio}_1}\Bigr)}{\ln(2)} 
-= 1200 \,\times\, \frac{\ln(\text{Ratio})}{\ln(2)}.
-$$
+= 1200 \times \frac{\ln\Bigl(\tfrac{f_2}{f_1}\Bigr)}{\ln(2)} 
+= 1200 \times \frac{\ln\Bigl(\tfrac{\text{Ratio}_2}{\text{Ratio}_1}\Bigr)}{\ln(2)} 
+= 1200 \times \frac{\ln(\text{Ratio})}{\ln(2)}.
+```
 
 For example, in ET, a semitone (100 cents) is calculated as:
 
