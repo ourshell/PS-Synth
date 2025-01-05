@@ -26,7 +26,7 @@ In ET, frequencies are calculated to divide the octave into 12 equally spaced to
 
 ## 2. Linear Representation
 
-Intervals in a musical scale are measured in **cents**, a logarithmic unit that linearizes pitch changes. The formula for pitch difference in cents between two frequencies $$\(f_1\)$$ and $$\(f_2\)$$ is:
+Intervals in a musical scale are measured in **cents**, a logarithmic unit that linearizes pitch changes. The formula for pitch difference in cents between two frequencies $$f_1$$ and $$f_2$$ is:
 
 ```math
 \text{Pitch} 
@@ -37,20 +37,20 @@ Intervals in a musical scale are measured in **cents**, a logarithmic unit that 
 
 For example, in ET, a semitone (100 cents) is calculated as:
 
-$$
+```math
 \text{Pitch}_{\text{semitone}} 
-= 1200 \,\times\, \frac{\ln\!\Bigl(2^{\tfrac{1}{12}}\Bigr)}{\ln(2)} 
-= 1200 \,\times\, \frac{0.05776226504}{0.69314718056} 
-\;\approx\; 100 \,\text{cents}.
-$$
+= 1200 \times \frac{\ln\Bigl(2^{\tfrac{1}{12}}\Bigr)}{\ln(2)} 
+= 1200 \times \frac{0.05776226504}{0.69314718056} 
+\approx 100 \text{cents}.
+```
 
 Similarly, a whole tone (200 cents) between two tones in ET can be shown by:
 
-$$
+```math
 \text{Pitch}_{\text{whole-tone}} 
-= 1200 \,\times\, \frac{\ln\!\Bigl(2^{\tfrac{7}{12}} \,\big/\, 2^{\tfrac{5}{12}}\Bigr)}{\ln(2)} 
-= 200 \,\text{cents}.
-$$
+= 1200 \times \frac{\ln\Bigl(2^{\tfrac{7}{12}} \big/ 2^{\tfrac{5}{12}}\Bigr)}{\ln(2)} 
+= 200 \text{cents}.
+``
 
 ---
 
