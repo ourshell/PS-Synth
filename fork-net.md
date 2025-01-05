@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In acoustics, the accuracy of Equal Temperament (ET) has always been compromised, affecting the quality of sound. To address this, a new theory called **Near-Equal Temperament (N-ET)** has been developed. The core of N-ET is a stack of just intervals—7 perfect fifths ($$\tfrac{3}{2}$$) and 1 major third ($$\tfrac{5}{4}$$). While the process of manual tuning is time-consuming, the mathematical precision of true Equal Temperament can be achieved with unconditional accuracy, a feat never accomplished before. This article explores the theory of N-ET through music theory, mathematics, and acoustics.
+In acoustics, the accuracy of Equal Temperament (ET) has always been compromised, affecting the quality of sound. To address this, a new theory called **Near-Equal Temperament (N-ET)** has been developed. The core of N-ET is a stack of just intervals - 7 perfect fifths ($$\tfrac{3}{2}$$) and 1 major third ($$\tfrac{5}{4}$$). While the process of manual tuning is time-consuming, the mathematical precision of true Equal Temperament can be achieved with unconditional accuracy, a feat never accomplished before. This article explores the theory of N-ET through music theory, mathematics, and acoustics.
 
 ---
 
@@ -10,7 +10,7 @@ In acoustics, the accuracy of Equal Temperament (ET) has always been compromised
 
 The ability to distinguish between two frequencies is not linear. For example, increasing the frequency of \(A_4 = 440 \,\text{Hz}\) by 50% results in \(660 \,\text{Hz}\), but the perceived pitch increase is **not** proportional. This is due to the exponential relationship between pitch and frequency.
 
-To increase the **perceived** pitch by 50% (a factor of \(\sqrt{2}\)), the frequency must be calculated as:
+To increase the **perceived** pitch by 50% (a factor of $\sqrt{2}$), the frequency must be calculated as:
 
 $$
 F = 440 \times 2^{\frac{1}{2}} \;=\; 440 \times \sqrt{2} \;\approx\; 622 \,\text{Hz}.
