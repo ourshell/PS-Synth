@@ -17,7 +17,7 @@ F = 440 \times 2^{1/2} = 440 \times \sqrt{2} = 440 \times 1.4142135623731 \appro
 In ET, frequencies are calculated to divide the octave into 12 equally spaced tones as perceived by the human ear. The ratio for each tone is given by:
 
 ```math
-\text{Ratio}_n = 2^{n/12}, \quad n = 0, 1, \dots, 11
+\text{Ratio}_n = 2^{\frac{n}{12}}, \quad n = 0, 1, \dots, 11
 ```
 
 2. Linear Representation
