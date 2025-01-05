@@ -8,14 +8,15 @@
    - [The Concept of 4D Sound](#the-concept-of-4d-sound)
    - [The 4D Wave Equation](#the-4d-wave-equation)
    - [Projecting 4D Sound into 3D and 2D](#projecting-4d-sound-into-3d-and-2d)
-5. [The Role of Projection in Musical Timbre](#the-role-of-projection-in-musical-timbre)
-6. [The Physics of 4D Sound](#the-physics-of-4d-sound)
+5. [Sound Wave Projection](#sound-wave-projection)
+   - [The Role of Projection in Musical Timbre](#the-role-of-projection-in-musical-timbre)
+   - [The Physics of 4D Sound](#the-physics-of-4d-sound)
    - [Mathematical Modeling of 4D Sound](#mathematical-modeling-of-4d-sound)
    - [Sound Generation from Higher-Dimensional Physics](#sound-generation-from-higher-dimensional-physics)
-7. [Applications for Sound Design and Music Production](#applications-for-sound-design-and-music-production)
-8. [Challenges and Future Research](#challenges-and-future-research)
-9. [Conclusion](#conclusion)
-10. [Acknowledgments](#acknowledgments)
+6. [Applications for Sound Design and Music Production](#applications-for-sound-design-and-music-production)
+7. [Challenges and Future Research](#challenges-and-future-research)
+8. [Conclusion](#conclusion)
+9. [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
@@ -54,6 +55,7 @@ The 4D wave equation is essentially a mathematical model that governs the propag
 
 Where `c` is the speed of the wave, `W` is the displacement function, and `x`, `y`, `z`, and `w` represent the four spatial dimensions. The key difference between this equation and the traditional 3D wave equation is the additional spatial dimension.
 
+## Sound Wave Projection
 ### Projecting 4D Sound into 3D and 2D
 
 While the wave behavior may exist in 4D, the human auditory system and physical sound reproduction systems (such as speakers) are built to operate within three-dimensional space. To make 4D sound perceivable, we must project the higher-dimensional waves into the 3D space we can understand. This is similar to how we experience the world: the rich, multidimensional reality around us is filtered through the three-dimensional lens of our sensory system.
