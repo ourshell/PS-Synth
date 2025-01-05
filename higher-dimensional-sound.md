@@ -27,9 +27,9 @@ Traditional music and sound as we understand them today are bound by the three-d
 Sound is created by vibrations, which propagate through a medium (typically air) as pressure waves. These waves are disturbances in the medium that travel outward from the source, such as a vibrating string or a loudspeaker. In 3D, we can model sound waves as sinusoidal functions, where the amplitude of the wave changes over time.
 
 The fundamental mathematical formula for a sound wave in 3D space is:
-
-$f(y) = \sin(2 \pi \times \text{frequency} \times \text{time}) \times \exp(-\text{time})$
-
+```math
+f(y) = \sin(2 \pi \times \text{frequency} \times \text{time}) \times \exp(-\text{time})
+```
 This equation represents a simple sine wave that oscillates with time at a given frequency, and an exponential decay that simulates the sound fading over time.
 
 ### Why 4D Sound?
