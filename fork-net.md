@@ -161,7 +161,7 @@ The stack can be **iteratively applied** to generate all 12 tones in the scale. 
 Ratios exceeding 2 are divided by 2 to stay within the octave. The worst cumulative error is:
 
 ```math
-\text{Cumulative Error} = 11 \times (-0.0013) \approx -0.014 \text{cents}
+\text{CE} = 11 \times (-0.0013) \approx -0.014 \text{cents}
 ```
 
 ---
