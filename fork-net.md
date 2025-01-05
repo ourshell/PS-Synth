@@ -62,7 +62,7 @@ The **Just Noticeable Difference (JND)** defines the smallest pitch change perce
 \text{JND}_1 = 1200 \times \frac{\ln\Bigl(\tfrac{500}{499}\Bigr)}{\ln(2)} \approx 3.465935 \text{cents}
 ```
 
-For harmonic intervals, such as the syntonic comma \(\bigl(\tfrac{81}{80}\bigr)\), the difference is:
+For harmonic intervals, such as the [syntonic comma](https://en.wikipedia.org/wiki/Syntonic_comma) ($$\bigl(\tfrac{81}{80}\bigr)$$), the difference is:
 
 ```math
 \text{JND}_2 = 1200 \times \frac{\ln\Bigl(\tfrac{81}{80}\Bigr)}{\ln(2)} \approx 21.5063 \text{cents}
