@@ -37,11 +37,13 @@ The 4D wave equation is essentially a mathematical model that governs the propag
 
 Where `c` is the speed of the wave, `W` is the displacement function, and `x`, `y`, `z`, and `w` represent the four spatial dimensions. The key difference between this equation and the traditional 3D wave equation is the additional spatial dimension.
 
-### Projecting 4D Waves to 3D and 2D
+### Projecting 4D Sound into 3D and 2D
 
-Since we can’t directly perceive 4D space, we need to project these higher-dimensional waves back into 3D (and eventually 2D) for our human senses to interpret. One method for achieving this is through dimensional reduction: by collapsing the 4D wave information into a 3D form and then further projecting it into 2D (to be played back via speakers or headphones).
+While the wave behavior may exist in 4D, the human auditory system and physical sound reproduction systems (such as speakers) are built to operate within three-dimensional space. To make 4D sound perceivable, we must project the higher-dimensional waves into the 3D space we can understand. This is similar to how we experience the world: the rich, multidimensional reality around us is filtered through the three-dimensional lens of our sensory system.
 
-These projections would essentially be 3D or 2D analogs of the original 4D waves, and although they wouldn’t fully capture the complexity of the 4D wave, they would offer a new, richer sound experience compared to traditional 3D waves.
+One possible way to represent a 4D sound is to reduce its dimensionality by projecting it onto a three-dimensional "slice" of the 4D wave. This projection is akin to taking a photograph of a 3D object, reducing its information into a two-dimensional image. Mathematically, this can be done by using dimensional reduction techniques like slicing, Fourier transforms, or Principal Component Analysis (PCA) to extract the most relevant features of the higher-dimensional data.
+
+After projecting the sound wave into 3D, it is further flattened into a 2D waveform, which can be reproduced by a speaker. This 2D waveform is what we ultimately perceive as sound, but it retains the complexity of the higher-dimensional interactions in its harmonics, amplitudes, and temporal properties.
 
 ## The Physics of 4D Sound
 
