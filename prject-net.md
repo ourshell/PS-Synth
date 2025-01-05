@@ -31,7 +31,7 @@ Intervals in a musical scale are measured in cents, a logarithmic unit that line
 For example, in ET, a semitone (100 cents) is calculated as:
 
 ```math
-\text{Pitch}_{\text{semitone}} = 1200 \times \frac{\ln(2^{\frac{1}{12}})}{\ln(2)} = 1200 \times \frac{1}{12} \approx 100 \text{ cents}
+\text{Pitch}_{\text{semitone}} = 1200 \times \frac{\ln(2^{\frac{1}{12}})}{\ln(2)} = 1200 \times \frac{0.05776226504}{0.69314718056} \approx 100 \text{ cents}
 ```
 
 Similarly, a whole tone (200 cents) between two tones is:
