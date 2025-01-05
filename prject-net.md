@@ -25,7 +25,7 @@ In ET, frequencies are calculated to divide the octave into 12 equally spaced to
 Intervals in a musical scale are measured in cents, a logarithmic unit that linearizes pitch changes. The formula for pitch difference in cents is:
 
 ```math
-\text{Pitch} = 1200 \times \frac{\ln(\frac{f_2}{f_1})}{\ln(2)} = 1200 \times \frac{\ln(\text{Ratio})}{\ln(2)}
+\text{Pitch} = 1200 \times \frac{\ln(\frac{f_2}{f_1})}{\ln(2)} = 1200 \times \frac{\ln(\text{Ratio_2 \div Ratio_1})}{\ln(2)}
 ```
 
 For example, in ET, a semitone (100 cents) is calculated as:
