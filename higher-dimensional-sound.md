@@ -77,11 +77,15 @@ In theory, if we were able to fully simulate 4D waves, the resulting sound would
 
 To simulate a 4D sound wave, we might use mathematical functions to generate harmonics in the same way as we do with 3D waves, but with additional complexities. In 3D, a common approach is to generate a sine wave:
 
-$f(y) = \sin(2 \pi \cdot \text{frequency} \cdot \text{time})$
+```math
+f(y) = \sin(2 \pi \times \text{frequency} \times \text{time})
+```
 
 But in 4D, the wave function might include additional terms or variables to account for the fourth spatial dimension. For example:
 
-$f(y, w) = \sin(2 \pi \cdot \text{frequency} \cdot (\text{time} + w))$
+```math
+f(y, w) = \sin(2 \pi \times \text{frequency} \times (\text{time} + w))
+```
 
 This represents a more complex wave form, with `w` introducing the 4th dimension as a parameter that affects the wave.
 
