@@ -168,7 +168,7 @@ Ratios exceeding 2 are divided by 2 to stay within the octave. The worst cumulat
 
 ## 7. Practical Applications
 
-N-ET achieves **unprecedented precision**, with errors far below the JND threshold. This makes it suitable for:
+N-ET achieves unprecedented precision, with errors far below the JND threshold. This makes it suitable for:
 
 1. **Acoustic instruments**, ensuring harmonic purity.  
 2. **Digital synthesizers**, where computational precision can replicate N-ET ratios accurately.
