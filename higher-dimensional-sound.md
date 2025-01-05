@@ -42,7 +42,7 @@ A four-dimensional sound space opens the door to richer, more complex waveformsâ
 
 Now, letâ€™s push this boundary further. What if sound waves could propagate in a fourth dimension (4D)? This introduces a new level of complexity and allows us to explore the possibility of vibrations in a four-dimensional space.
 
-The **4D wave equation** is an extension of the traditional wave equation in 3D. For simplicity, we can visualize the 4D wave equation as a function that describes the displacement of a vibrating medium in 4D space. The challenge here is that the human ear can only perceive sound in 3D space, so how do we translate these higher-dimensional waves into something we can hear?
+The **4D wave equation** is an extension of the traditional [wave equation](https://en.wikipedia.org/wiki/Wave_equation) in 3D. For simplicity, we can visualize the 4D wave equation as a function that describes the displacement of a vibrating medium in 4D space. The challenge here is that the human ear can only perceive sound in 3D space, so how do we translate these higher-dimensional waves into something we can hear?
 
 ### The 4D Wave Equation
 
