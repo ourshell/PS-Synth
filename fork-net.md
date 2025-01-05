@@ -48,7 +48,7 @@ Similarly, a whole tone (200 cents) between two tones in ET can be shown by:
 
 ```math
 \text{Pitch}_{\text{whole-tone}} 
-= 1200 \times \frac{\ln\Bigl(2^{\tfrac{7}{12}} \big/ 2^{\tfrac{5}{12}}\Bigr)}{\ln(2)} 
+= 1200 \times \frac{\ln\Bigl(2^{\tfrac{7}{12}} \div 2^{\tfrac{5}{12}}\Bigr)}{\ln(2)} 
 = 200 \text{cents}.
 ``
 
