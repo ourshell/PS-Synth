@@ -177,5 +177,4 @@ N-ET achieves **unprecedented precision**, with errors far below the JND thresho
 
 ## 8. Conclusion
 
-Near-Equal Temperament offers a **revolutionary approach** to tuning, combining the harmonic purity of Just Intonation with the flexibility of Equal Temperament. By leveraging precise interval stacking, N-ET overcomes traditional tuning limitations and achieves near-perfect harmony. **Future research** could explore its application to microtonal systems and ensemble tuning, revolutionizing musical acoustics.
-
+Near-Equal Temperament offers a revolutionary approach to tuning, combining the harmonic purity of Just Intonation with the flexibility of Equal Temperament. By leveraging precise interval stacking, N-ET overcomes traditional tuning limitations and achieves near-perfect harmony. Future research could explore its application to microtonal systems and ensemble tuning, revolutionizing musical acoustics.
