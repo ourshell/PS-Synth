@@ -80,11 +80,11 @@ So how can this knowledge be applied in music production? Using the principles o
 - **Psychoacoustic Experimentation:** Higher-dimensional sound could also be explored from a psychoacoustic perspective, creating auditory experiences that challenge how we perceive depth, movement, and texture in sound, even at the most fundamental level.
 
 ## Challenges and Future Research
+While the theoretical and mathematical basis for higher-dimensional sound is fascinating, implementing it in practical audio synthesis will require overcoming several challenges. Some of these include:
 
-While the theoretical groundwork has been laid, there are still many challenges to overcome:
-
-- **Computational Complexity:** Calculating and simulating 4D waves in real-time could require significant computational resources.
-- **Human Perception:** Our ears are designed to perceive sound in 3D space, and simulating 4D sound that can be meaningfully heard remains an area for future experimentation.
+- **PComputational Complexity:** Simulating and projecting higher-dimensional waves into a form that can be processed by digital systems, such as sound synthesis software or hardware, requires substantial computational resources. This may limit the accessibility of 4D sound for real-time performance and production.
+- **PMapping into Perceptible Sound:** Successfully projecting 4D vibrations into 3D and 2D without losing important auditory details is a key challenge. The potential richness of the higher-dimensional wave must be preserved during projection to maintain the desired timbre and complexity.
+- **PHuman Auditory Perception:** Since humans can only perceive sound in three-dimensional space, it will be interesting to explore how higher-dimensional projections affect our perception of music. We may need to reconsider the boundaries of psychoacoustics to accommodate these new waveforms.
 
 ## Conclusion
 
