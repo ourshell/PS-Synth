@@ -15,7 +15,7 @@
    - [Sound Generation from Higher-Dimensional Physics](#sound-generation-from-higher-dimensional-physics)
 5. [Applications for Sound Design and Music Production](#applications-for-sound-design-and-music-production)
 6. [Challenges and Future Research](#challenges-and-future-research)
-   - [Beyond the Fourth Dimension: A Symphony of Infinite Possibilities](#beyond-the-fourth-dimension:-a-symphony-of-infinite-possibilities)
+   - [Beyond the Fourth Dimension: A Symphony of Infinite Possibilities](#beyond-the-fourth-dimension-a-symphony-of-infinite-possibilities)
 7. [Conclusion](#conclusion)
 8. [Acknowledgments](#acknowledgments)
 
