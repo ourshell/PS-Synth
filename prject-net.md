@@ -37,7 +37,7 @@ For example, in ET, a semitone (100 cents) is calculated as:
 Similarly, a whole tone (200 cents) between two tones is:
 
 ```math
-\text{Pitch}_{\text{whole-tone}} = 1200 \times \frac{\ln(\frac{2^{\frac{7}{12}}}{2^{\frac{5}{12}}})}{\ln(2)} = 200 \text{ cents}
+\text{Pitch}_{\text{whole-tone}} = 1200 \times \frac{\ln(2^{\frac{7}{12}} \div 2^{\frac{5}{12}})}{\ln(2)} = 200 \text{ cents}
 ```
 
 3. Just Noticeable Difference (JND)
