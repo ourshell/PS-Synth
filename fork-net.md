@@ -79,19 +79,19 @@ Pitch changes below **3.5 cents** are generally imperceptible, which becomes cri
 In ET, the ratio of a perfect fifth is **approximated** as:
 
 ```math
-\text{Ratio}_{\text{P5, ET}} = 2^{\tfrac{7}{12}} \approx 1.498307
+\text{Ratio}_{\text{P5-ET}} = 2^{\tfrac{7}{12}} \approx 1.498307
 ```
 
 In Just Intonation (JI), the perfect fifth is **exactly**:
 
 ```math
-\text{Ratio}_{\text{P5, JI}} = \tfrac{3}{2} = 1.5
+\text{Ratio}_{\text{P5-JI}} = \tfrac{3}{2} = 1.5
 ```
 
 The difference in cents is:
 
 ```math
-\text{Difference} = 1200 \times \frac{\ln\Bigl(\tfrac{2^{7/12}}{3/2}\Bigr)}{\ln(2)} \approx -1.955 \text{cents}
+\text{Difference} = 1200 \times \frac{\ln\Bigl(\tfrac{2^{\tfrac{7}{12}}}{3/2}\Bigr)}{\ln(2)} \approx -1.955 \text{cents}
 ```
 
 Even a 2-cent discrepancy can contribute to subtle beating in chords.
