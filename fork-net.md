@@ -62,7 +62,7 @@ The **Just Noticeable Difference (JND)** defines the smallest pitch change perce
 \text{JND}_1 = 1200 \times \frac{\ln\Bigl(\tfrac{500}{499}\Bigr)}{\ln(2)} \approx 3.465935 \text{cents}
 ```
 
-For harmonic intervals, such as the [syntonic comma](https://en.wikipedia.org/wiki/Syntonic_comma) ($$\bigl(\tfrac{81}{80}\bigr)$$), the difference is:
+For harmonic intervals, such as the [syntonic comma](https://en.wikipedia.org/wiki/Syntonic_comma) $$\bigl(\tfrac{81}{80}\bigr)$$, the difference is:
 
 ```math
 \text{JND}_2 = 1200 \times \frac{\ln\Bigl(\tfrac{81}{80}\Bigr)}{\ln(2)} \approx 21.5063 \text{cents}
@@ -109,19 +109,15 @@ The deviation of M3 and P5 in ET compared to JI is calculated as follows:
 
 For the major third:
 
-$$
-\text{Error}_{\text{M3}} 
-= \Bigl[1200 \,\times\, \frac{\ln(5/4)}{\ln(2)}\Bigr] \;-\; 400 
-\;\approx\; -13.686 \,\text{cents}.
-$$
+```math
+\text{Error}_{\text{M3}} = \Bigl[1200 \times \frac{\ln(5/4)}{\ln(2)}\Bigr] - 400 \approx -13.686 \text{cents}
+```
 
 For the perfect fifth:
 
-$$
-\text{Error}_{\text{P5}} 
-= \Bigl[1200 \,\times\, \frac{\ln(3/2)}{\ln(2)}\Bigr] \;-\; 700 
-\;\approx\; +1.955 \,\text{cents}.
-$$
+```math
+\text{Error}_{\text{P5}} = \Bigl[1200 \times \frac{\ln(3/2)}{\ln(2)}\Bigr] - 700 \approx +1.955 \text{cents}
+```
 
 These deviations are critical for harmonic purity.
 
@@ -130,10 +126,7 @@ These deviations are critical for harmonic purity.
 By stacking **7 P5s** and **1 M3**, a near-perfect interval is achieved. The formula for the stack is:
 
 $$
-\text{Stack} 
-= \Bigl(\tfrac{3}{2}\Bigr)^7 
-  \times \Bigl(\tfrac{5}{4}\Bigr) 
-  \times \Bigl(\tfrac{1}{2^4}\Bigr).
+\text{Stack} = \Bigl(\tfrac{3}{2}\Bigr)^7 \times \Bigl(\tfrac{5}{4}\Bigr) \times \Bigl(\tfrac{1}{2^4}\Bigr).
 $$
 
 Simplifying:
