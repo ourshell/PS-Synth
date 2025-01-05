@@ -31,8 +31,8 @@ Intervals in a musical scale are measured in **cents**, a logarithmic unit that 
 
 $$
 \text{Pitch} 
-= 1200 \,\times\, \frac{\ln\!\Bigl(\tfrac{f_2}{f_1}\Bigr)}{\ln(2)} 
-= 1200 \,\times\, \frac{\ln\!\Bigl(\tfrac{\text{Ratio}_2}{\text{Ratio}_1}\Bigr)}{\ln(2)} 
+= 1200 \,\times\, \frac{\ln\Bigl(\tfrac{f_2}{f_1}\Bigr)}{\ln(2)} 
+= 1200 \,\times\, \frac{\ln\Bigl(\tfrac{\text{Ratio}_2}{\text{Ratio}_1}\Bigr)}{\ln(2)} 
 = 1200 \,\times\, \frac{\ln(\text{Ratio})}{\ln(2)}.
 $$
 
