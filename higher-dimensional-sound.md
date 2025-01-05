@@ -61,10 +61,6 @@ $f(y, w) = \sin(2 \pi \cdot \text{frequency} \cdot (\text{time} + w))$
 
 This represents a more complex wave form, with `w` introducing the 4th dimension as a parameter that affects the wave.
 
-### Projection into 3D and 2D
-
-Once we have the 4D sound wave, it needs to be projected back into the 3D world we live in. This projection can be achieved through mathematical transformations, but the most important takeaway is that this process doesn’t just reduce the complexity—it allows us to hear sounds that are informed by higher-dimensional vibrations.
-
 ### Sound Generation from Higher-Dimensional Physics
 
 1. **Step 1:** Use the 4D wave equation to generate a high-dimensional wave.
